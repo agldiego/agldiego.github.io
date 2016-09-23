@@ -1,0 +1,166 @@
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body{
+
+}
+
+h1{
+font-family: 'Helvetica bold',Georgia, Serif;
+color: white;
+margin-left: 10px;
+font-size: 60px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Helvetica bold', Georgia, Serif;
+color: white;
+margin-left: 10px;
+font-size: 20px;
+text-align: left; 
+}
+
+h3{
+font-family: 'Helvetica bold', Georgia, Serif;
+color: white;
+font-size: 12px;
+text-align: center; 
+}
+
+.centrado {
+text-align: center;
+}
+
+header{
+
+	height: 80px;
+	background-image: url(../img/logoUNAD.png);
+	background-size: 315px 67px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+
+nav{
+width: 1000px;
+height: 38px;
+/*background: #FF5900;
+border-radius: 10px;*/
+border: 3px solid #FF5900;
+border-right-style: none;
+border-left-style: none;
+
+}
+
+ul{
+margin: auto;
+
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	/*background: #006680;*/
+	font-weight: bolder;
+	 
+
+}
+
+.menu li
+{
+	
+    display:inline-block;
+}
+
+.menu li a
+{
+    display:block;
+    padding: 10px 20px;
+    color:#000;
+    border-radius: 2px;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.menu li a:hover
+{
+    background-color: #FF5900; 
+    color:#fff;
+}
+
+
+section{
+	width: 1000px;
+	background: #006680;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+height: 300px;
+width: 100%;
+background:black;
+float: left;
+margin-top: 20px;
+padding-top: 40px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: #006680; text-decoration: none;}
+.menu:visited{color: #006680; text-decoration: none;}
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+ }
+
+ #panel{
+ 	width: 1000px;
+	background: #F2b80D;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+ }
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
